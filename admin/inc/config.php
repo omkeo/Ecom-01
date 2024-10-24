@@ -6,19 +6,19 @@ ini_set('error_reporting', E_ALL);
 date_default_timezone_set('Asia/Dubai');
 
 // Host Name
-$dbhost = 'localhost';
+$dbhost = 'ec2-13-232-76-165.ap-south-1.compute.amazonaws.com';
 
 // Database Name
 $dbname = 'fashiony_ogs';
 
 // Database Username
-$dbuser = 'root';
+$dbuser = 'admin';
 
 // Database Password
-$dbpass = '';
+$dbpass = '987654321';
 
 // Defining base url
-define("BASE_URL", "http://fashionys.com/");
+define("database-1.c5oaaia40odt.ap-south-1.rds.amazonaws.com", "http://fashionys.com/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
